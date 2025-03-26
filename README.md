@@ -30,8 +30,7 @@ You can see the code, brief report and presentation on [my github repository](ht
 ### Boggle Solver
 Boggle is a simple game were you have to find as many words on a 4x4 grid with letters. I have played it with my family for the past 15 years, so I think I can safely call it our tradition. That's why I decided to create a program in C++ that would find all words on the board. To make it available to my parents I made a website with Flask in Python where they can use it. 
 
-| Image 1 | Image 2 |
-|---------|---------|
+
 | ![VaDE](/assets/images/vade_digits.png) | ![VaDE](/assets/images/vade_digits.png) |
 
 
