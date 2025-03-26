@@ -10,7 +10,7 @@
 ### Satellite Tracking
 In a group of 4 students we have developed a web site that tells you what satellites you can see on the sky at a choosen location. It also provides a cloud cover forecast, that is being updated every 15 minutes. 
 
-![satellites_ui](/assets/images/satellites_ui.png)
+![satellites_ui](/assets/images/satellites_ui.PNG)
 
 The goal of this project was to learn about Big Data solutions. We used technologies like Apache NiFI, Apache Kafka and a Python library called River for online machine learning models. For data storage we used Azure Data Lake Storage, Cosmo DB and MySQL. Everything was set up in Azure Cloud.
 
