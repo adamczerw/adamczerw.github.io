@@ -28,6 +28,9 @@ VaDE is a fascinating unsupervised model for clustering and data generation, pro
 During this project I've learned a lot about building custom models and training loops in TensorFlow. But my key takeaway is that even though the paper may initially seem complex and highly theoretical, breaking it down and implementing it step by step makes it much more approachable and helps in developing a deeper understanding of its concepts and practical applications.
 You can see the code, brief report and presentation on [my github repository](https://github.com/adamczerw/ImplementingPapers/tree/main/VaDE).
 
+### Self-driving car
+While self studying reinforcement learning I implemented one of the algorithms called Off-policy Monte Carlo control. To visualise its capabilities I created a simple desktop app where you can build your own track and make a "car" learn how to navigate it. The source code is in [my github repo](https://github.com/adamczerw/DrivingCarRL/tree/master).
+
 ![car](/assets/images/car.gif)
 
 ### 500 features classification task
