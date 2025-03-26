@@ -33,7 +33,6 @@ Boggle is a simple game where you find as many words as possible on a 4×4 lette
 
 ![Boggle](/assets/images/board_solver.png)
 
-![BoggleBoard](/assets/images/boggle_board__.png)  ![BoggleSolver](/assets/images/boggle_solver.png)
 
 You can find the C++ code [here](https://github.com/adamczerw/BoggleSolver).
 
