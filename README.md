@@ -13,6 +13,6 @@ VaDE is a fascinating unsupervised model for clustering and data generation, pro
 ![VaDE](/assets/images/vade_digits.png)
 
 During this project I've learned a lot about building custom models and training loops in TensorFlow. But my key takeaway is that even though the paper may initially seem complex and highly theoretical, breaking it down and implementing it step by step makes it much more approachable and helps in developing a deeper understanding of its concepts and practical applications.
-You can see the code, brief report and presentation in [my github repository](abc)
+You can see the code, brief report and presentation on [my github repository](https://github.com/adamczerw/ImplementingPapers/tree/main/VaDE).
 
 
