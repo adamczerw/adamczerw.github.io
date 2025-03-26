@@ -31,7 +31,7 @@ You can see the code, brief report and presentation on [my github repository](ht
 Boggle is a simple game were you have to find as many words on a 4x4 grid with letters. I have played it with my family for the past 15 years, so I think I can safely call it our tradition. That's why I decided to create a program in C++ that would find all words on the board. To make it available to my parents I made a website with Flask in Python where they can use it. 
 
 
-![BoggleBoard](/assets/images/boggle_board_.png)  ![BoggleSolver](/assets/images/boggle_solver.png)
+![BoggleBoard](/assets/images/boggle_board.png)  ![BoggleSolver](/assets/images/boggle_solver.png)
 
 
 ### Self-driving car
