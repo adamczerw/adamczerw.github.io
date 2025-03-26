@@ -12,7 +12,7 @@ The goal of this project was to learn about Big Data solutions. We used technolo
 
 My main job was to develop a machine learning model for cloud cover forecasting that would be constantly updated with new weather data. I used the SNARIMAX model for time series forecasting. But besides that, I worked on setting up the cloud and databases, helped with the backend of the website and was kind of a project manager in our team. 
 
-Unfortunately, the website is no longer available because we didn't want to pay for the cloud. You can find more details in [this report](). But I warn you that it was written to meet specific course requirements, so it may be a bit long and somewhat dry.
+Unfortunately, the website is no longer available because we didn't want to pay for the cloud.
 
 ## *Boggle Solver*
 Boggle is a simple game where you find as many words as possible on a 4×4 letter grid. I've played it with my family for the past 15 years, so I can safely call it our tradition. That’s why I decided to create a **C++** program that finds all possible words on the board. To make it accessible for my parents, I built a website (**Python**+**Flask**) where they can use it.
