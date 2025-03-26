@@ -28,11 +28,11 @@ VaDE is a fascinating unsupervised model for clustering and data generation, pro
 During this project I've learned a lot about building custom models and training loops in TensorFlow. But my key takeaway is that even though the paper may initially seem complex and highly theoretical, breaking it down and implementing it step by step makes it much more approachable and helps in developing a deeper understanding of its concepts and practical applications.
 You can see the code, brief report and presentation on [my github repository](https://github.com/adamczerw/ImplementingPapers/tree/main/VaDE).
 ### Boggle Solver
-Boggle is a simple game were you have to find as many words on a 4x4 grid with letters. I have played it with my family for the past 15 years, so I think I can safely call it our tradition. That's why I decided to create a program in C++ that would find all words on the board. To make it available to my parents I made a website with Flask in Python where they can use it. 
-
+Boggle is a simple game where you find as many words as possible on a 4×4 letter grid. I've played it with my family for the past 15 years, so I can safely call it our tradition. That’s why I decided to create a C++ program that finds all possible words on the board. To make it accessible for my parents, I built a website (Python+Flask) where they can use it.
 
 ![BoggleBoard](/assets/images/boggle_board_.png)  ![BoggleSolver](/assets/images/boggle_solver.png)
 
+You can find the C++ code [here](https://github.com/adamczerw/BoggleSolver).
 
 ### Self-driving car
 While self studying reinforcement learning I implemented in Python one of the algorithms called Off-policy Monte Carlo control. To visualise its capabilities I created a simple desktop app where you can build your own track and make a "car" learn how to navigate it. The source code is in [my github repo](https://github.com/adamczerw/DrivingCarRL/tree/master).
