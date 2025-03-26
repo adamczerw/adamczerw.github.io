@@ -28,6 +28,8 @@ VaDE is a fascinating unsupervised model for clustering and data generation, pro
 During this project I've learned a lot about building custom models and training loops in TensorFlow. But my key takeaway is that even though the paper may initially seem complex and highly theoretical, breaking it down and implementing it step by step makes it much more approachable and helps in developing a deeper understanding of its concepts and practical applications.
 You can see the code, brief report and presentation on [my github repository](https://github.com/adamczerw/ImplementingPapers/tree/main/VaDE).
 
+![car](/assets/images/car.gif)
+
 ### 500 features classification task
 During an Advanced Machine Learning course, we were given a unique dataset consisting of 5000 clients in both the training and test sets, each described by 500 features. Our goal was to predict 1000 clients most likely to accept a specific offer, earning 10 virtual euros per successful sale. However, the challenge was that each feature used incurred a cost of 100 euros. By combining an extensive feature selection process with an ensemble of well-tuned models, we achieved a top-5 result in the class and earned the highest grade You can read more [here](https://github.com/adam-narozniak/2024L-DSAdvancedML/blob/main/projects/project2/group3/Narozniak_Czerwonski_Rucinski/AML%20Project%202%20Report.pdf).
 
