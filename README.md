@@ -31,12 +31,12 @@ You can see the code, brief report and presentation on [my github repository](ht
 ### Boggle Solver
 Boggle is a simple game where you find as many words as possible on a 4×4 letter grid. I've played it with my family for the past 15 years, so I can safely call it our tradition. That’s why I decided to create a **C++** program that finds all possible words on the board. To make it accessible for my parents, I built a website (**Python**+**Flask**) where they can use it.
 
-![BoggleBoard](/assets/images/boggle_board_.png)  ![BoggleSolver](/assets/images/boggle_solver.png)
+![BoggleBoard](/assets/images/boggle_board__.png)  ![BoggleSolver](/assets/images/boggle_solver.png)
 
 You can find the C++ code [here](https://github.com/adamczerw/BoggleSolver).
 
 ### Self-driving car
-While self studying reinforcement learning I implemented in **Python** one of the algorithms called Off-policy Monte Carlo control. To visualise its capabilities I created a simple desktop app where you can build your own track and make a "car" learn how to navigate it. The source code is in [my github repo](https://github.com/adamczerw/DrivingCarRL/tree/master).
+While self studying reinforcement learning I implemented in **Python** one of the algorithms called Off-policy Monte Carlo control. To visualise its capabilities I created a simple desktop app where you can build your own track and make a "car" learn how to navigate it. The source code is in [my Github repo](https://github.com/adamczerw/DrivingCarRL/tree/master).
 
 ![car](/assets/images/car.gif)
 
@@ -44,7 +44,7 @@ While self studying reinforcement learning I implemented in **Python** one of th
 During an Advanced Machine Learning course, we were given a unique dataset consisting of 5000 clients in both the training and test sets, each described by 500 features. Our goal was to predict 1000 clients most likely to accept a specific offer, earning 10 virtual euros per successful sale. However, the challenge was that each feature used incurred a cost of 100 euros. By combining an extensive feature selection process with an ensemble of well-tuned models, we achieved a top-5 result in the class and earned the highest grade. You can read more [here](https://github.com/adam-narozniak/2024L-DSAdvancedML/blob/main/projects/project2/group3/Narozniak_Czerwonski_Rucinski/AML%20Project%202%20Report.pdf). Data Science libraries used: **XGBoost**, **LightGBM**, **Scikit-learn**, **Hyperopt**, **Pandas**, **NumPy**, **Matplotlib**.
 
 ### Implementing YOLO
-In [Redmon et al. 2015] authors introduced a novel model for object detection called YOLO. It is still used till this day, although in different and improved forms. To get in depth understandment of it works I decided to code it from the scratch. You can find my Python notebook where I share my code and walk you through the implementation in **PyTorch** on [Kaggle](https://www.kaggle.com/code/jomenik/yolov1-pytorch-implementation/notebook) or on [Github](https://github.com/adamczerw/ImplementingPapers/tree/main/YOLO).
+In [Redmon et al. 2015](https://arxiv.org/abs/1506.02640), the authors introduced a novel object detection model called YOLO. It is still widely used today, although in different and improved forms. To gain an in-depth understanding of how it works, I decided to code it from scratch in **PyTorch**. You can find my **Python** notebook where I walk your through my implementation on [Kaggle](https://www.kaggle.com/code/jomenik/yolov1-pytorch-implementation/notebook) or on [Github](https://github.com/adamczerw/ImplementingPapers/tree/main/YOLO).
 
 ![yolo](/assets/images/YOLOcomparison.png)
 
