@@ -31,6 +31,8 @@ You can see the code, brief report and presentation on [my github repository](ht
 ### Boggle Solver
 Boggle is a simple game where you find as many words as possible on a 4×4 letter grid. I've played it with my family for the past 15 years, so I can safely call it our tradition. That’s why I decided to create a **C++** program that finds all possible words on the board. To make it accessible for my parents, I built a website (**Python**+**Flask**) where they can use it.
 
+![Boggle](/assets/images/board_solver.png)
+
 ![BoggleBoard](/assets/images/boggle_board__.png)  ![BoggleSolver](/assets/images/boggle_solver.png)
 
 You can find the C++ code [here](https://github.com/adamczerw/BoggleSolver).
