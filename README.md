@@ -1,7 +1,13 @@
 # Projects
+
 I've collected and briefly described my (mainly) Data Science projects. I hope you find them interesting!
 
+## *Master's thesis: Agentic AI for legacy ERP automation*
+
+I'm currently working on my master's thesis at Warsaw University of Technology, titled *"Agentic AI system for process automation in legacy ERP software"*. The idea is an agent that operates graphical interfaces the way a person would: it looks at the screen, decides what to click or type, and works through a business task step by step. Under the hood it's an **LLM** loop over screenshots, with **OmniParser** for locating UI elements, tested on an ERP instance running in **Docker**.
+
 ## *Satellite Tracking*
+
 In a group of four students, we developed a website that tells you which satellites are visible in the sky at a chosen location. It also provides a cloud cover forecast, which is updated every 15 minutes using our own machine learning models.
 
 ![satellites_ui](/assets/images/satellites_ui.PNG)
@@ -10,32 +16,36 @@ The goal of this project was to learn about Big Data solutions. We used technolo
 
 ![satellites_architecture](/assets/images/satellites_architecture.png)
 
-My main job was to develop a machine learning model for cloud cover forecasting that would be constantly updated with new weather data. I used the SNARIMAX model for time series forecasting. But besides that, I worked on setting up the cloud and databases, helped with the backend of the website and was kind of a project manager in our team. 
+My main job was to develop a machine learning model for cloud cover forecasting that would be constantly updated with new weather data. I used the SNARIMAX model for time series forecasting. But besides that, I worked on setting up the cloud and databases, helped with the backend of the website and was kind of a project manager in our team.
 
 Unfortunately, the website is no longer available because we didn't want to pay for the cloud.
 
 ## *Boggle Solver*
+
 Boggle is a simple game where you find as many words as possible on a 4×4 letter grid. I've played it with my family for the past 15 years, so I can safely call it our tradition. That’s why I decided to create a **C++** program that finds all possible words on the board. To make it accessible for my parents, I built a website (**Python**+**Flask**) where they can use it.
 
 ![Boggle](/assets/images/board_solver.png)
 
-
 You can find the C++ code [here](https://github.com/adamczerw/BoggleSolver).
 
 ## *500 features classification task*
-During an Advanced Machine Learning course, we were given a unique dataset consisting of 5000 clients in both the training and test sets, each described by 500 features. Our goal was to predict 1000 clients most likely to accept a specific offer, earning 10 virtual euros per successful sale. However, the challenge was that each feature used incurred a cost of 100 euros. By combining an extensive feature selection process with an ensemble of well-tuned models, we achieved a top-5 result in the class and earned the highest grade. You can read more [here](https://github.com/adam-narozniak/2024L-DSAdvancedML/blob/main/projects/project2/group3/Narozniak_Czerwonski_Rucinski/AML%20Project%202%20Report.pdf). Data Science libraries used: **XGBoost**, **LightGBM**, **Scikit-learn**, **Hyperopt**, **Pandas**, **NumPy**, **Matplotlib**.
+
+During an Advanced Machine Learning course, we were given a unique dataset consisting of 5000 clients in both the training and test sets, each described by 500 features. Our goal was to predict 1000 clients most likely to accept a specific offer, earning 10 virtual euros per successful sale. However, the challenge was that each feature used incurred a cost of 100 euros. By combining an extensive feature selection process with an ensemble of well-tuned models, we achieved a top-5 result in the class and earned the highest grade. You can read more [here](<https://github.com/adam-narozniak/2024L-DSAdvancedML/blob/main/projects/project2/group3/Narozniak_Czerwonski_Rucinski/AML%20Project%202%20Report.pdf>). Data Science libraries used: **XGBoost**, **LightGBM**, **Scikit-learn**, **Hyperopt**, **Pandas**, **NumPy**, **Matplotlib**.
 
 ## *Self-driving car*
+
 While self-studying reinforcement learning I implemented in **Python** one of the algorithms called Off-policy Monte Carlo control. To visualise its capabilities I created a simple desktop app where you can build your own track and make a "car" learn how to navigate it. The source code is in [my Github repo](https://github.com/adamczerw/DrivingCarRL/tree/master).
 
 ![car](/assets/images/car.gif)
 
 ## *Implementing YOLO*
+
 In [Redmon et al. 2015](https://arxiv.org/abs/1506.02640), the authors introduced a novel object detection model called YOLO. It is still widely used today, although in different and improved forms. To gain an in-depth understanding of how it works, I decided to code it from scratch in **PyTorch**. You can find my **Python** notebook where I walk you through my implementation on [Kaggle](https://www.kaggle.com/code/jomenik/yolov1-pytorch-implementation/notebook) or on [Github](https://github.com/adamczerw/ImplementingPapers/tree/main/YOLO).
 
 ![yolo](/assets/images/YOLOcomparison.png)
 
 ## *Implementing Variational Deep Embedding (VaDE)*
+
 VaDE is a fascinating unsupervised model for clustering and data generation, proposed by [Jiang et al. 2016](https://arxiv.org/abs/1611.05148). I have implemented it using **TensorFlow** and trained it on the MNIST dataset (images of handwritten digits). Below are some examples of digits generated by my model.
 
 ![VaDE](/assets/images/vade_digits.png)
@@ -44,12 +54,9 @@ During this project I've learned a lot about building custom models and training
 You can see the code, brief report, and presentation on [my github repository](https://github.com/adamczerw/ImplementingPapers/tree/main/VaDE).
 
 ## *Audio and Image Recognition*
+
 For the Image Recognition project, we built an image classification model to identify 10 different classes from the CINIC-10 dataset. We experimented with two CNN-based models—ResNet and VGG—combining them with various augmentations and transfer learning.
 
 For the Audio Recognition project, we had to develop classification models for the [TensorFlow Speech Recognition Challenge](https://www.kaggle.com/competitions/tensorflow-speech-recognition-challenge) on Kaggle, but without using CNN architectures, which dominated the top-scoring solutions. I learned a lot about working with audio, especially the surprising insight that transforming it into a spectrogram allows it to be treated like an image. Initially, we trained an RNN model, but in the end, we achieved significantly better results using a pre-trained Audio Spectrogram Transformer from **Hugging Face**—outperforming even the winning solutions from the Kaggle competition.
 
 Both projects were implemented using **TensorFlow**. You can check out our reports [here](https://github.com/adamczerw/DeepLearningCourseProjects/tree/main)
-
-
-
-
